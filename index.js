@@ -1,8 +1,8 @@
 let express = require('express');
 let app = express();
 let bodyParser = require('body-parser')
-
 let cors = require('cors');
+const path = require('path')
 /*
 app.use(cors({
     'allowedHeaders': ['sessionId', 'Content-Type'],
